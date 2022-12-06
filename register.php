@@ -148,7 +148,7 @@ function test_input($data){
 	<input type="radio" name="gender" <?php if (isset($gender) && $gender == "Preifro não comentar") echo "checked";?> value="Prefiro não comentar">Prefiro não comentar
 	<span class="error" style="color: red; font-size: 0.8em;"><?php echo $genderErr;?></span><br><br>
 
-	<label>Senha:</label><br>
+	<label>Endereço:</label><br>
     <textarea name="address" cols="50" rows="5" placeholder="Digite seu endereço..."></textarea>
     <span class="error" style="color: red; font-size: 0.8em;"><?php echo $addressErr;?></span><br><br>
 
