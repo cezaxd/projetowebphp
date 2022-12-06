@@ -59,6 +59,6 @@ CREATE TABLE Cart(
 
 
 INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-001','Hacking com Kali Linux: Técnicas Práticas Para Testes de Invasão','978-8575223956',136,'','Travel','image/travel.jpg');
-INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-002','Crew Resource Management, Second Edition','123-456-789-2',599,'Barbara Kanki','Technical','image/technical.jpg');
-INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-003','CCNA Routing and Switching 200-125 Official Cert Guide Library','123-456-789-3',329,'Cisco Press ','Technology','image/technology.jpg');
-INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-004','Easy Vegetarian Slow Cooker Cookbook','123-456-789-4',75.9,'Rockridge Press','Food','image/food.jpg');
+INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-002', 'Introdução ao Pentest', '978-8575228074', 150.00, 'Daniel Moreno', 'Hacker Ético', 'image/pentest.jpg');
+INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-003', 'Linux - A bíblia: o mais abrangente e definitivo guia sobre Linux', '978-8576087991', 129.99, 'Christopher Negus', 'Tecnologia', 'image/linuxbiblia.jpg');
+INSERT INTO `book`(`BookID`, `BookTitle`, `ISBN`, `Price`, `Author`, `Type`, `Image`) VALUES ('B-004', 'Desenvolvendo Websites com PHP: Aprenda a Criar Websites Dinâmicos e Interativos com PHP e Bancos de Dados', '978-8575225349', 75.99, 'Juliano Niederauer', 'Tecnologia', 'image/php.jpg');
